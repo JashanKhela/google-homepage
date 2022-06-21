@@ -1,0 +1,122 @@
+body {
+  background-color: #202124;
+  height: 100vh;
+  max-height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  margin-left: 12px;
+  margin-right: 12px;
+  font-size: 16px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+
+}
+
+nav div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile {
+  border-radius: 50%;
+  height: 50%;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 50%;
+  margin-top: 100px;
+}
+
+.logo {
+  margin: 50px;
+}
+
+.logo img {
+  width: 300px;
+}
+
+.searchbar {
+  display: flex;
+  height: 44px;
+  width: 638px;
+  max-width: 584px;
+  border: 1px solid #dfe1e5;
+  box-shadow: none;
+  border-radius: 24px;
+  padding: 10px 10px;
+
+}
+
+.searchbar:focus-within {
+  background: #303134;
+  box-shadow: 0 1px 6px 0 #171717;
+  background: #303134;
+  border-color: rgba(223, 225, 229, 0);
+
+}
+
+.searchbar input {
+  all: unset;
+  color: white;
+  width: 85%;
+}
+
+.buttonGroup {
+  margin: 50px auto;
+}
+
+.buttonGroup button {
+  background-color: #303134;
+  border: 1px solid #303134;
+  border-radius: 4px;
+  color: #e8eaed;
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  margin: 11px 4px;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 36px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+}
+
+.buttonGroup button:hover {
+  background-color: #303134;
+  border: 1px solid rgb(132, 132, 132);
+
+}
+
+.goxjub {
+  height: 24px;
+  width: 24px;
+  vertical-align: middle;
+  margin: auto;
+}
+
+.bottomText {
+  color: #bdc1c6;
+display: inline-block;
+line-height: 28px;
+}
+.bottomText a {
+  color: #8ab4f8;
+text-decoration: none;
+}
